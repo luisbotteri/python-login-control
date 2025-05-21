@@ -1,0 +1,30 @@
+________________________________________________________________________________________________________
+Promeblática:
+El usuario quiere saber si puede entrar a la discoteca en función de su edad. 
+________________________________________________________________________________________________________
+Algoritmo:
+1. Solicitar al cliente su eadd. 
+2. Verificar si la edad ingresada cumple con el requisito para entrar a la discoteca. 
+3. Mostrar al cliente si puede o no ingresar a la discoteca. 
+________________________________________________________________________________________________________
+Pseudocódigo:
+Inicio
+    // Paso 1:
+    Mostrar mensaje: "Por favor, ingrese su edad: "
+    Leer el dato ingresado y asignarlo a la variable edad.
+
+    // Paso 2:
+    Si edad  >= 18:
+        Asignar a la variable permitido el valor verdadera.
+    Sino:
+        Asignar a la variable permitido el valor falso. 
+    Fin Si
+
+    // Paso 3:
+    Si permitido es verdadero.
+        Mostrar mensaje: "Estás permitido ingresar a la discoteca."
+    Sino:
+        Mostrar mensaje: "Lo sentimos mucho, no es permitido ingresar a la discoteca menores de edad."
+    Fin Si
+Fin 
+________________________________________________________________________________________________________
